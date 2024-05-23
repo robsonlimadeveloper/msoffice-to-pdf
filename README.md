@@ -1,21 +1,21 @@
-# msoffice2pdf 0.0.8
+# msoffice2pdf
 
-This package aims to convert Microsoft Office file types to PDF. This lib uses the comtypes package which makes it easy to access and implement custom, dispatch-based COM interfaces or LibreOffice software.
+[![Python](https://badgen.net/badge/language/python/orange?icon=python)]()
+[![Flask](https://badgen.net/badge/type/library/red?icon=)]()
 
-For use in `Windows` environment and `soft=0` Microsoft Office must be installed.
+>_This package aims to convert Microsoft Office file types to PDF. This lib uses the comtypes package which makes it easy to access and implement custom, dispatch-based COM interfaces or LibreOffice software._
 
-For use in `Windows` environment and `soft=1` you need the latest version of LibreOffice(soffice) installed.
+### Prerequisites
 
-For `Ubuntu(linux)` environment it is only possible to use `soft=1`, that is, LibreOffice(soffice).
-
-Supported files: [".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".xml"]
-
+*_**[Python](https://www.python.org/downloads/)**_ **>=3.6** installed on the environment.*
 
 ### Installation
 
 Step 1:
 
-`pip3 install msoffice2pdf`
+```
+pip3 install msoffice2pdf
+```
 
 Step 2
 
@@ -62,7 +62,7 @@ https://www.libreoffice.org/download/download/
 
 ###  (Ubuntu Only):
 
-Install LibreOffice:
+Install **LibreOffice**:
 
 `sudo add-apt-repository -y ppa:libreoffice/ppa`
 
@@ -71,6 +71,14 @@ Install LibreOffice:
 `sudo apt-get install libreoffice libreoffice-style-breeze`
 
 ### Example:
+
+For use in `Windows` environment and `soft=0` Microsoft Office must be installed.
+
+For use in `Windows` environment and `soft=1` you need the latest version of LibreOffice(soffice) installed.
+
+For `Ubuntu(linux)` environment it is only possible to use `soft=1`, that is, LibreOffice(soffice).
+
+Supported files: **[".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".xml"]**
 
 ```python
 from msoffice2pdf import convert
