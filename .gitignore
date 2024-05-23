@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+build/
+dist/
+**/msoffice2pdf.egg-info/
