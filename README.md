@@ -1,9 +1,31 @@
-# msoffice2pdf
+<h1 align="center">
+  <br>
+   msoffice2pdf
+  <br>
+</h1>
 
-[![Python](https://badgen.net/badge/language/python/orange?icon=python)]()
-[![Flask](https://badgen.net/badge/type/library/red?icon=)]()
+<p align="center">  
+<img src="https://badgen.net/badge/language/python/yellow?icon=python">
+<img src="https://badgen.net/badge/type/library/pink?icon=">
 
->_This package aims to convert Microsoft Office file types to PDF. This lib uses the comtypes package which makes it easy to access and implement custom, dispatch-based COM interfaces or LibreOffice software._
+</p>
+<p align="center">
+<a href='https://ko-fi.com/V7V717GRV1' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+</p>
+
+<p align="justify">
+This package aims to convert Microsoft Office file types to PDF. This lib uses the comtypes package which makes it easy to access and implement custom, dispatch-based COM interfaces or LibreOffice software.
+</p>
+
+<p><strong>Develop with:</strong></p>
+
+<p align="left">
+	
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,vscode" />
+  </a>
+</p>
+
 
 ### Prerequisites
 
@@ -13,7 +35,7 @@
 
 Step 1:
 
-```
+```bash
 pip3 install msoffice2pdf
 ```
 
@@ -64,11 +86,17 @@ https://www.libreoffice.org/download/download/
 
 Install **LibreOffice**:
 
-`sudo add-apt-repository -y ppa:libreoffice/ppa`
+```sh
+sudo add-apt-repository -y ppa:libreoffice/ppa
+```
 
-`sudo apt-get update`
+```sh
+sudo apt-get update
+```
 
-`sudo apt-get install libreoffice libreoffice-style-breeze`
+```sh
+sudo apt-get install libreoffice libreoffice-style-breeze
+```
 
 ### Example:
 
@@ -78,7 +106,7 @@ For use in `Windows` environment and `soft=1` you need the latest version of Lib
 
 For `Ubuntu(linux)` environment it is only possible to use `soft=1`, that is, LibreOffice(soffice).
 
-Supported files: **[".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".xml"]**
+#### **Supported files: `[".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt", ".xml"]`**
 
 ```python
 from msoffice2pdf import convert
